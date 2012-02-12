@@ -6,6 +6,7 @@ public class Problem012 {
 	
 	public static void main(String[] args) {
 		Problem012 p = new Problem012();
+
 		for (int i = 1; i < 10000; i++) {
 			long res = p.getNaturalNumber(i);
 			int count = p.getFactors(res);
